@@ -10,3 +10,63 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #565454;
 }
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin: 20px 0;
+}
+
+h1 img {
+    width: 200px;
+    border-radius: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+} 
+.container joke {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#joke-text {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    transition: all 0.3s ease-in-out;
+   color: antiquewhite;
+    height: 30vh;
+    width: 100vh;
+    border: #45a049 solid 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+button:hover {
+    background-color: #45a049;
+}
